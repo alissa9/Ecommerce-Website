@@ -1,2 +1,2 @@
 # Ecommerce-Website
-made an ecommerce website using PHP, HTML, CSS, JavaScript and MongoDB  
+Made an ecommerce website for a car company using PHP, HTML, CSS, JavaScript, Ajax and MongoDB  
