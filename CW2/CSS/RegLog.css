@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* the style for the RegLog page which its the signup and login forms */
+
+body {
+    background: rgba(0, 0, 0, 0.3);
+    /* font-family: roboto; */
+    user-select: none;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat;
+
+
+}
+
+.container {
+    width: 450px;
+    padding-top: 13%;
+    padding-bottom: 125px;
+    padding-left: 38%;
+}
+
+/* the main buttons */
+
+.signup,
+.login {
+    width: 50%;
+    background: rgb(240, 240, 240);
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.login-form {
+    background: rgb(255 255 255 / 30%);
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.signup-form{
+    background : rgb(255 255 255 / 30%);
+    padding : 40px;
+    clear : both;
+    width : 100%;
+    box-sizing : border-box;
+    height : 500px;
+}
+
+/* fieldset */
+#emailInput,
+#firstNameInput,
+#lastNameInput,
+#addressInput,
+#passwordInput,
+#email,
+#password {
+    width : 100%;
+    height : 50px;
+    box-sizing : border-box;
+    border : 2px solid #859797;
+    color : #3e3e40;
+    font-size : 14px;
+    outline : none;
+    transform : all 0.5 s ease;
+}
+
+button#signupButton,
+button#loginButton {
+    margin-top: 50px;
+    width: 100%;
+    background: #6c6c8d;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    /* font-family: "Oxygen", sans-serif; */
+}
+.input:focus {
+    border: 2px solid rgb(112, 62, 62);
+}
+
+span a {
+    text-decoration: none;
+    color: #000;
+}
+
+p#LoginPara {
+    font-size: 20px;
+}
+
+input.input {
+    width: 100%;
+    margin-top: 25px;
+}
+/* logout button css */
+button#logout {   
+    padding: 30px;
+    position: absolute;
+    background-color: rgb(135, 168, 157);
+}

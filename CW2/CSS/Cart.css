@@ -1,0 +1,175 @@
+.inquires {
+    margin: 6% 29% 2% 28%;
+    color: rgb(255 255 255);
+    font-size: 20px;
+}
+
+h1 {
+    padding: 45px;
+    /* font-family: "Oxygen", sans-serif; */
+    color: white;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.cartbanner {
+
+    background-color: rgb(25, 25, 36);
+    height: 100px;
+    width: auto;
+    padding-top: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.Cart-wrapper {
+    background-color: #51517e;
+}
+
+.Cartwrapper {
+    color: rgba(41, 0, 221, 0.863);
+    display: grid;
+    margin: auto;
+
+    padding-left: 28%;
+    padding-top: 1%;
+
+}
+
+.grid-Cart {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    width: 800px;
+    height: 500px;
+    margin-bottom: 3%;
+
+}
+
+#Item {
+    align-content: center;
+}
+
+/* the style for the cart button  */
+input.button {
+    background-color: #7cb8e93d;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.confirmButton {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 46%;
+}
+
+.clearButton {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40%;
+}
+
+.thankYouButton {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1%;
+}
+
+#orderSummary {
+    color: burlywood;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    width: 800px;
+    height: 500px;
+    margin-left: 28%;
+    margin-top: 1%;
+}
+
+#orderSummaryInside {
+    text-align: center;
+    background-color: rgba(223, 215, 215, 0.466);
+    border: solid 4px black;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 25px 0;
+    height: 50%;
+    width: 90%;
+}
+
+/* the box of the cart and css inside it of the items */
+.CarPic > img {
+    height: 150px;
+    padding-left: 50px;
+}
+
+th.CarMake {
+    padding-left: 50px;
+    color: white;
+}
+
+th.CarModel {
+    padding-left: 50px;
+    color: white;
+}
+
+th.CarPrice {
+    padding-left: 50px;
+    color: rgb(76, 207, 105);
+}
+
+
+button.removeItem {
+    background-color: rgb(228, 149, 135);
+    padding: 20px;
+    margin-left: 100px;
+}
+
+#customer,
+#address,
+#postcode,
+#customerEmail {
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #859797;
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transform: all 0.5s ease;
+}
+
+/* recommend table */
+div#recommendTable {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+div#RecomendationDiv {
+    /* align-items: center; */
+    display: flex;
+    margin-left: 10%;
+    margin-left: 7%;
+}

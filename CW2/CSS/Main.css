@@ -1,0 +1,200 @@
+
+
+/*Style Main*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*---------------Home Page----------------*/
+
+.banner {
+  /*Styles Main Banner*/
+  background-color: rgb(25, 25, 36);
+  height: 100px;
+  width: auto;
+}
+
+.banner h1 {
+  /*Styles Main Banner Text*/
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.checkboxes p {
+  font-family: "Oxygen", sans-serif;
+}
+
+.submit {
+  /*Styles Submit Button In Forms*/
+  background-color: rgb(151, 117, 89);
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  padding: 5px 20px;
+  margin: 20px 0;
+  border: 2px solid;
+  cursor: pointer;
+  width: 15%;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+/*-------------Header-------------*/
+
+/*Styles HeaderBackdrop*/
+.headerbackdrop {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #202038;
+}
+
+/*Styles InnerHeader*/
+.insideofheader {
+  background-image: url("../images/Logo3.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 1500px;
+  height: 80px;
+  display: block;
+  margin-left: 80px;
+}
+/*-----------Style for Sorting products-----------*/
+
+button.sortButton{
+ padding:10px;
+}
+
+select#sort-wrapper {
+    
+  padding: 10px;
+}
+
+
+/*-----------Navigation-----------*/
+
+#searchbar {
+  position: fixed;
+  top: 3%;
+  margin-left: 35%;
+  border: 7px #51517e;
+  margin-right: 50%;
+}
+
+
+#searchbar > button { 
+    padding: 4px;
+    margin-left: 2%;
+    position: absolute;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 25px;
+  background-color: white;
+  box-shadow: 3px blue;
+}
+
+/*Controls Position & Styles Navigation Bar Text*/
+#navigationbar a {
+  float: right;
+  padding: 30px 30px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: aliceblue;
+}
+/*Styles Part of Navigation Bar User Is Browsing*/
+.hovering {
+  background-color: #493b34;
+}
+
+/*-----------Background-----------*/
+
+/*Styles Backdrop of Website*/
+.background {
+  width: 100%;
+
+  background-color: #51517e;
+  background-size: auto;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.homeImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/interior.png");
+  width: 100%;
+  height: 400px;
+}
+
+/*-----------Footer-----------*/
+/*Controls Position & Style of Footer*/
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #202038;
+  margin-top: auto;
+}
+img.FooterPic {
+  width: 80px;
+  height: 80px;
+  margin-left : 890px;
+}
+
+img.privacyPic {
+    height : 80px;
+}
+
+
+/*--------------Tables---------------*/
+.Product-wrapper {
+  background-color: #51517e;
+  margin-left: 35px;
+}
+.gridwrapper {
+  color: white;
+  display: grid;
+  grid-gap: 1em;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.grid-item {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+img.CarPic {
+  height: 500px;
+  width: 550px;
+}
+
+/* the button of the items */
+button.addtocart{
+  background-color: rgb(131, 150, 185);
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  margin-bottom : 3%;
+}
+
+input#addtocart {
+  background-color: rgb(131, 150, 185);
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  margin-bottom: 5%;
+}
+

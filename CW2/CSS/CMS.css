@@ -1,0 +1,256 @@
+/*-----------WholePage-----------*/                                                                                 
+
+                            
+ /*Start of Main*/
+* {                                                                                                                  
+    margin: 0;                                                                                                      
+    padding: 0;                                                                                                                                                                                                  
+    text-decoration: none;                                                                                              
+}
+
+/*---------------MainPage---------------*/
+
+/*Styles Main Banner*/
+.banner{                                                                                                             
+    background-color: rgb(25, 25, 36);
+    height: 100px;
+    width: auto;
+}
+
+/*Styles Main Banner Text*/
+.banner h1{                                                                                                          
+    font-family: "Oxygen", sans-serif; 
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+
+    
+
+}
+/*Styles Main Menu*/
+.menu{                                                                                                               
+    padding-top: 10px;
+    margin-left: 650px;
+    margin-bottom: 30px
+}
+/*Styles Menu Button Options*/
+.menubutton{                                                                                                         
+    height: 75px;
+    width: 500px;
+    background-color: #c2c2c2;
+    border: 2px solid ;
+    cursor: pointer;
+    margin-right: 50px;
+}
+/*Styles Button In Forms When Hovered*/
+.menubutton:hover {                                                                                                  
+    color: rgb(233, 229, 229);
+}
+
+.space{
+    height:25px;
+}
+
+
+ /*Controls Area Form Can Take Up*/
+ .entryform {                                                                                                                                                                                                               
+    padding-top: 8%;
+    background-color: #b4b4d2;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-bottom: 10%;
+    
+}
+  /*Styles First Header of Forms*/
+.entryform h1 {                                                                                                     
+    font-family: "Oxygen", sans-serif;                                                                             
+    color:white; 
+    text-align: center;
+}
+   /*Styles Second Header of Forms*/
+.entryform h2 {                                                                                                    
+    font-family: "Oxygen", sans-serif;                                                                              
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100; 
+    text-align: center;
+}
+   /*Styles Input Bar Names of Forms*/
+.entryform p{                                                                                                      
+    font-family: "Oxygen", sans-serif;                                                                        
+    color:white;
+    font-size: 20px;
+    font-weight: 100;    
+    padding-top: 5%; 
+    text-align: center;
+}
+   /*Styles Input Bars of Forms*/
+input[type=text],[type=number],[type=date],[type=time]{                                                                                                  
+    width: 225px;
+    height: 50px;
+    border:3px solid rgb(196, 0, 0);
+    position: relative;
+    margin-top: 1%;
+    margin-left: 33%;
+    position: inherit;
+    
+
+}
+  /*Styles Input Bars of Forms When Selected*/
+input[type=text]:focus {                                                                                            
+    background-color: rgb(129, 151, 140);
+    outline: none; 
+   
+}
+  
+ /*Styles Lines In Forms*/
+hr {                                                                                                               
+    border: 2px solid rgb(105, 67, 36);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+   /*Styles Submit Button In Forms*/
+.submit {                                                                                                                                                                                                                   
+    background-color: rgb(151, 117, 89);
+    font-family: "Oxygen", sans-serif; 
+    color: white;
+    padding: 5px 20px;
+    margin: 25px 0;
+    border: 2px solid ;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 180px;
+    
+   
+}
+   /*Styles Link In Forms*/
+a {                                                                                                                
+    font-family: "Oxygen", sans-serif; 
+    color: white;
+} 
+/*Styles Link In Forms When Hovered*/
+  
+a:hover{                                                                                                           
+    color:  rgb(105, 67, 36);
+}
+  /*Styles Button In Forms When Hovered*/
+.submit:hover {                                                                                                   
+    color:  rgb(105, 67, 36);
+} */
+
+/*--------------View Products tables---------------*/
+
+
+.tablediv {
+    padding-top: 8%;
+}
+
+/*Styles Leaderboard Table*/
+ .table, th {     
+    
+    width: 385px;
+    padding-top: 25px;                                                                                          
+    font-family: "Oxygen", sans-serif;
+ 
+    color:rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-bottom: 25px;
+}
+
+#vieworder{
+   font-family: "Oxygen", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+input#deleteButton{
+    padding: 10px;
+    margin-top: 27px;
+    margin-left: 312px;
+    background-color: lavender;
+}
+
+
+
+
+
+/*-------------Header-------------*/
+/*Styles HeaderBackdrop*/    
+
+.headerbackdrop{                                                                                                    
+    position: fixed;
+    width: 100%;                                                              
+    height: 80px;                                                              
+    display: block;                                                          
+    background-color:  #202038;                                               
+}
+/*Styles InnerHeader*/
+.insideofheader{                                                                                                   
+    background-image: url("../images/Logo3.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 1500px;                                                             
+    height: 80px;                                                               
+    display: block;                                                           
+    margin-left: 80px;                                                                                                     
+}
+
+.homeImage{                                                                                                      
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/interior.png"); 
+    width:100%;
+    height:400px;
+}
+
+/*-----------Navigation-----------*/
+
+/*Controls Position & Styles Navigation Bar Text*/
+.navigationbar a{                                                                                                                                                                                                
+    float: right;                                                                                                
+    padding: 30px 30px;                                                                                            
+    font-family: "Oxygen", sans-serif;                                                                                                                                                   
+    font-weight: 300;                                                                                            
+    font-size: 16px;                                                                                              
+    color:  aliceblue;                                                                                           
+}                                                                                                                                                                                                                                 
+/*Styles Part of Navigation Bar User Is Browsing*/
+.hovering{                                                                                                          
+    background-color: #493b34;
+}
+
+/*-----------Background-----------*/
+/*Styles Backdrop of Website*/
+.background{                                                                                                                                                           
+    width: 100%;                                                                                                
+    background-color: #b4b4d2;
+    background-size: auto;                                                                                         
+    position: relative;   
+    background-repeat: no-repeat;                                                                                        
+}
+
+/*-----------Footer-----------*/
+  /*Controls Position & Style of Footer*/
+footer{                                                                                                                                                                                                                       
+width : 100%;
+display : flex;
+background-color : #202038;
+margin-top : auto;
+
+}
+
+img.FooterPic{
+    width: 80px;
+    height: 80px;
+    margin-left : 890px;
+
+}
+img.privacyPic {
+    height : 80px;
+}
+
+

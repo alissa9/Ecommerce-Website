@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* the style for the AdminLogin page which its the signup and login forms */
+
+body{
+  background: rgba(0, 0, 0, 0.3);
+  font-family: roboto;
+  user-select: none;
+  background-size: auto;                                                                                         
+  position: relative;   
+  background-repeat: no-repeat;   
+}
+
+
+.container {
+  width: 450px; 
+  padding-top: 10%;
+  padding-bottom: 12%;
+  padding-left: 38%;
+}
+
+.login{
+  
+  width: 100%;
+  background: rgb(203, 214, 50);
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Oxygen", sans-serif;     
+}
+  
+
+.login-form{
+  background: rgb(255 255 255 / 30%);
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+  
+.auninput{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.aeainput{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+  
+.apinput{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.alinput{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.alpinput{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+  
+.input:focus{
+  border: 2px solid rgb(112, 62, 62);
+}
+span a{
+  text-decoration: none;
+  color: #000;
+  font-family: "Oxygen", sans-serif;     
+}
+
+
+input.input { 
+  width: 100%;
+}
+
+#email, #password{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;   
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+#AdminloginButton{
+  margin-top: 50px;
+  width: 100%;
+  background: #6c6c8d;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-family: "Oxygen", sans-serif;     
+}
+
+
+.tablediv {
+    padding-top: 10%;
+}
+  
